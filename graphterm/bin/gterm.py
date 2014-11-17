@@ -66,8 +66,8 @@ GT_PREFIX = "GTERM_"
 
 LOCAL_HOST = "local"
 
-##SHELL_CMD = "bash -l"
-SHELL_CMD = "/bin/bash"
+##SHELL_CMD = "Log into imported shell."
+SHELL_CMD = "$SHELL"
 
 DEFAULT_HTTP_PORT = 8900
 DEFAULT_HOST_PORT = DEFAULT_HTTP_PORT - 1
